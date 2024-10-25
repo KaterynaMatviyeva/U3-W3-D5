@@ -1,0 +1,177 @@
+{
+  "users": [
+    {
+      "email": "sdsdfff@gmail.it",
+      "password": "$2a$10$wrwi0D99A.miMy6CeFQ18.QUWhNMBZ8JSwk49mZ7owTjfcVY6uW4O",
+      "nome": "ciao",
+      "id": 2
+    },
+    {
+      "email": "ciao@gmail.it",
+      "password": "$2a$10$dX6mP9ena0oYFpZo4t5uW.O5MEK9afjMJGQG3wIGZjaEnMgwnrP8S",
+      "nome": "ciao",
+      "id": 3
+    },
+    {
+      "email": "kateryna@gmail.it",
+      "password": "$2a$10$fKGA3SNHtvek5/dBvRFy5OUEsAkNteDvPel6BjwPiKCe/08S8D1gC",
+      "nome": "Kateryna",
+      "id": 4
+    },
+    {
+      "email": "pietro@gmail.it",
+      "password": "$2a$10$RGkqO9gg/B.75t6/z79GL.bAtivmwCVIzXviov/D6.u2RXBGT7chm",
+      "nome": "Pietro",
+      "id": 5
+    },
+    {
+      "email": "ale@gmail.it",
+      "password": "$2a$10$NSIopPAXXb3k0atRcd8zE.JbV/PlHQBtQ0Fs9rfvo3YdhySmS2Kfe",
+      "nome": "Ale",
+      "id": 6
+    },
+    {
+      "email": "kate@gmail.it",
+      "password": "$2a$10$UMs2BjuJlqNA0Ra64xGjt.HUtFbgYNS94UutcrT6GZ4keNzA4b6Se",
+      "nome": "kate",
+      "id": 7
+    },
+    {
+      "email": "giggio@gmail.it",
+      "password": "$2a$10$3U7njaQfQEA72DsSYr6pqOfCXxyqqS8PNUKO22XXGXtSW0/LCSq7i",
+      "nome": "giggio",
+      "id": 8
+    }
+  ],
+  "movies": [
+    {
+      "titolo": "Star Wars: The Force Awakens",
+      "genere": "fantasy",
+      "id": 1
+    },
+    {
+      "titolo": "Inception",
+      "genere": "thriller",
+      "id": 2
+    },
+    {
+      "titolo": "The Dark Knight",
+      "genere": "avventura",
+      "id": 3
+    },
+    {
+      "titolo": "Interstellar",
+      "genere": "sci-fi",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "titolo": "The Godfather",
+      "genere": "Crime"
+    },
+    {
+      "id": 6,
+      "titolo": "Pulp Fiction",
+      "genere": "Drama"
+    },
+    {
+      "id": 7,
+      "titolo": "The Shawshank Redemption",
+      "genere": "Drama"
+    },
+    {
+      "id": 8,
+      "titolo": "Forrest Gump",
+      "genere": "Drama"
+    },
+    {
+      "id": 9,
+      "titolo": "The Matrix",
+      "genere": "Sci-Fi"
+    },
+    {
+      "id": 10,
+      "titolo": "Fight Club",
+      "genere": "Drama"
+    },
+    {
+      "id": 11,
+      "titolo": "The Lord of the Rings: The Fellowship of the Ring",
+      "genere": "Fantasy"
+    },
+    {
+      "id": 12,
+      "titolo": "Gladiator",
+      "genere": "Action"
+    },
+    {
+      "id": 13,
+      "titolo": "The Silence of the Lambs",
+      "genere": "Thriller"
+    },
+    {
+      "id": 14,
+      "titolo": "Titanic",
+      "genere": "Romance"
+    },
+    {
+      "id": 15,
+      "titolo": "Avatar",
+      "genere": "Sci-Fi"
+    },
+    {
+      "id": 16,
+      "titolo": "Jurassic Park",
+      "genere": "Adventure"
+    },
+    {
+      "id": 17,
+      "titolo": "The Social Network",
+      "genere": "Biography"
+    },
+    {
+      "id": 18,
+      "titolo": "The Departed",
+      "genere": "Crime"
+    },
+    {
+      "id": 19,
+      "titolo": "Schindler's List",
+      "genere": "Biography"
+    },
+    {
+      "id": 20,
+      "titolo": "Mad Max: Fury Road",
+      "genere": "Action"
+    }
+  ],
+  "favorites": [
+    {
+      "movie": {
+        "titolo": "Star Wars: The Force Awakens",
+        "genere": "fantasy",
+        "id": 1
+      },
+      "userId": 7,
+      "id": 1
+    },
+    {
+      "movie": {
+        "titolo": "Star Wars: The Force Awakens",
+        "genere": "fantasy",
+        "id": 1
+      },
+      "userId": 6,
+      "id": 2
+    },
+    {
+      "movie": {
+        "titolo": "Inception",
+        "genere": "thriller",
+        "id": 2
+      },
+      "userId": 6,
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<header class="p-3 bg-black">
+  <div class="container">
+    <div
+      class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+    >
+      <h1 class="text-warning">
+        <a class="nav-link" routerLink="">Streamix</a>
+      </h1>
+      <ul
+        class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+      >
+        <li *ngIf="authSvc.getCurrentUser()">
+          <a routerLink="/home" class="nav-link px-2 text-white">Home</a>
+        </li>
+        <li *ngIf="authSvc.getCurrentUser()">
+          <a routerLink="/favorites" class="nav-link px-2 text-white"
+            >Favorite Films</a
+          >
+        </li>
+        <li *ngIf="authSvc.getCurrentUser()">
+          <a routerLink="/users" class="nav-link px-2 text-white">Users</a>
+        </li>
+      </ul>
+      <div class="text-end">
+        <a
+          *ngIf="!authSvc.getCurrentUser()"
+          routerLink="/auth/login"
+          type="button"
+          class="btn btn-outline-warning me-2"
+          >Login</a
+        >
+        <a
+          *ngIf="!authSvc.getCurrentUser()"
+          routerLink="/auth/register"
+          type="button"
+          class="btn btn-warning"
+          >Sign-up</a
+        >
+        <a
+          *ngIf="authSvc.getCurrentUser()"
+          (click)="logout()"
+          type="button"
+          class="btn btn-warning"
+          >Logout</a
+        >
+      </div>
+    </div>
+  </div>
+</header>

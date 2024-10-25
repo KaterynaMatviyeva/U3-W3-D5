@@ -1,0 +1,27 @@
+<main>
+  <div class="container w-50">
+    <h1 class="text-center h3 my-3 fw-normal">Registrati</h1>
+
+    <form [formGroup]="formGroup">
+      <input
+        type="text"
+        placeholder="nome"
+        formControlName="nome"
+        class="form-control"
+      />
+      <input
+        type="email"
+        placeholder="example@gmail.it"
+        formControlName="email"
+        class="form-control my-2"
+      />
+      <input
+        type="password"
+        placeholder="password"
+        formControlName="password"
+        class="form-control"
+      />
+      <button (click)="register()" class="btn btn-warning mt-3">Invia</button>
+    </form>
+  </div>
+</main>

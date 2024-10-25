@@ -1,0 +1,13 @@
+<main>
+  <!-- <div *ngIf="movies"> -->
+  <ul *ngFor="let movie of movies$ | async">
+    <li class="text-black">
+      {{ movie.titolo }}
+
+      <button (click)="addToFavorite(movie)" class="btn btn-warning">
+        Add to favorites
+      </button>
+    </li>
+  </ul>
+  <!-- </div> -->
+</main>
