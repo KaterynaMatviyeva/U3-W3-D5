@@ -1,30 +1,6 @@
 {
   "users": [
     {
-      "email": "sdsdfff@gmail.it",
-      "password": "$2a$10$wrwi0D99A.miMy6CeFQ18.QUWhNMBZ8JSwk49mZ7owTjfcVY6uW4O",
-      "nome": "ciao",
-      "id": 2
-    },
-    {
-      "email": "ciao@gmail.it",
-      "password": "$2a$10$dX6mP9ena0oYFpZo4t5uW.O5MEK9afjMJGQG3wIGZjaEnMgwnrP8S",
-      "nome": "ciao",
-      "id": 3
-    },
-    {
-      "email": "kateryna@gmail.it",
-      "password": "$2a$10$fKGA3SNHtvek5/dBvRFy5OUEsAkNteDvPel6BjwPiKCe/08S8D1gC",
-      "nome": "Kateryna",
-      "id": 4
-    },
-    {
-      "email": "pietro@gmail.it",
-      "password": "$2a$10$RGkqO9gg/B.75t6/z79GL.bAtivmwCVIzXviov/D6.u2RXBGT7chm",
-      "nome": "Pietro",
-      "id": 5
-    },
-    {
       "email": "ale@gmail.it",
       "password": "$2a$10$NSIopPAXXb3k0atRcd8zE.JbV/PlHQBtQ0Fs9rfvo3YdhySmS2Kfe",
       "nome": "Ale",
@@ -41,108 +17,147 @@
       "password": "$2a$10$3U7njaQfQEA72DsSYr6pqOfCXxyqqS8PNUKO22XXGXtSW0/LCSq7i",
       "nome": "giggio",
       "id": 8
+    },
+    {
+      "email": "clara@gmail.it",
+      "password": "$2a$10$OM5Fm3KIf35uCLiCo5wqBeNPOPLBga8hjUq5x8w6VPyE3InvEfg22",
+      "nome": "clara",
+      "id": 9
+    },
+    {
+      "email": "daria@gmail.it",
+      "password": "$2a$10$znAOx14/AAHHPIxyAflJS.E3fWChf5QroI7m9AHgQiIVuyoVDb6nS",
+      "nome": "daria",
+      "id": 10
+    },
+    {
+      "email": "katia@gmail.it",
+      "password": "$2a$10$oUkJqVGEG92zRK43sfkMa.2prhjq.AI3IGHfPVoRUy4k6hMdWT06G",
+      "nome": "katia",
+      "img": "",
+      "id": 11
     }
   ],
   "movies": [
     {
       "titolo": "Star Wars: The Force Awakens",
       "genere": "fantasy",
-      "id": 1
+      "id": 1,
+      "img": "https://m.media-amazon.com/images/S/pv-target-images/b364bd6e4d7dc7e1acbd81011052e547ac0fdca732b307756b0015f31acb1faf.jpg"
     },
     {
       "titolo": "Inception",
       "genere": "thriller",
-      "id": 2
+      "id": 2,
+      "img": "https://m.media-amazon.com/images/I/912AErFSBHL._AC_UF1000,1000_QL80_.jpg"
     },
     {
       "titolo": "The Dark Knight",
       "genere": "avventura",
-      "id": 3
+      "id": 3,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ekE6Hhz9gvIbiFSUPxt-FyAh4zXTXX0bjQ&s"
     },
     {
       "titolo": "Interstellar",
       "genere": "sci-fi",
-      "id": 4
+      "id": 4,
+      "img": "https://m.media-amazon.com/images/I/91vIHsL-zjL._AC_UF1000,1000_QL80_.jpg"
     },
     {
       "id": 5,
       "titolo": "The Godfather",
-      "genere": "Crime"
+      "genere": "Crime",
+      "img": "https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_.jpg"
     },
     {
       "id": 6,
       "titolo": "Pulp Fiction",
-      "genere": "Drama"
+      "genere": "Drama",
+      "img": "https://static.posters.cz/image/750/1288.jpg"
     },
     {
       "id": 7,
       "titolo": "The Shawshank Redemption",
-      "genere": "Drama"
+      "genere": "Drama",
+      "img": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_.jpg"
     },
     {
       "id": 8,
       "titolo": "Forrest Gump",
-      "genere": "Drama"
+      "genere": "Drama",
+      "img": "https://teatrosociale.it/wp-content/uploads/2021/07/Forrest_Gump_poster.jpg"
     },
     {
       "id": 9,
       "titolo": "The Matrix",
-      "genere": "Sci-Fi"
+      "genere": "Sci-Fi",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfSjSWOCaw5dnDL2GT1zFd9RMCgUGw5Q2Cfg&s"
     },
     {
       "id": 10,
       "titolo": "Fight Club",
-      "genere": "Drama"
+      "genere": "Drama",
+      "img": "https://m.media-amazon.com/images/I/71V4mbT4n9L._AC_UF894,1000_QL80_.jpg"
     },
     {
       "id": 11,
       "titolo": "The Lord of the Rings: The Fellowship of the Ring",
-      "genere": "Fantasy"
+      "genere": "Fantasy",
+      "img": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_.jpg"
     },
     {
       "id": 12,
       "titolo": "Gladiator",
-      "genere": "Action"
+      "genere": "Action",
+      "img": "https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
     },
     {
       "id": 13,
       "titolo": "The Silence of the Lambs",
-      "genere": "Thriller"
+      "genere": "Thriller",
+      "img": "https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_.jpg"
     },
     {
       "id": 14,
       "titolo": "Titanic",
-      "genere": "Romance"
+      "genere": "Romance",
+      "img": "https://www.cinefacts.it/foto/h!titanic_poster_locandina_cinefacts__1_.jpg"
     },
     {
       "id": 15,
       "titolo": "Avatar",
-      "genere": "Sci-Fi"
+      "genere": "Sci-Fi",
+      "img": "https://static.posters.cz/image/750/poster/avatar-limited-ed-couple-i7199.jpg"
     },
     {
       "id": 16,
       "titolo": "Jurassic Park",
-      "genere": "Adventure"
+      "genere": "Adventure",
+      "img": "https://pad.mymovies.it/filmclub/2006/05/125/locandina.jpg"
     },
     {
       "id": 17,
       "titolo": "The Social Network",
-      "genere": "Biography"
+      "genere": "Biography",
+      "img": "https://pad.mymovies.it/filmclub/2009/12/007/locandina.jpg"
     },
     {
       "id": 18,
       "titolo": "The Departed",
-      "genere": "Crime"
+      "genere": "Crime",
+      "img": "https://pad.mymovies.it/filmclub/2006/08/199/locandina.jpg"
     },
     {
       "id": 19,
       "titolo": "Schindler's List",
-      "genere": "Biography"
+      "genere": "Biography",
+      "img": "https://m.media-amazon.com/images/I/817R7RXH9PL._AC_UF1000,1000_QL80_.jpg"
     },
     {
       "id": 20,
       "titolo": "Mad Max: Fury Road",
-      "genere": "Action"
+      "genere": "Action",
+      "img": "https://m.media-amazon.com/images/M/MV5BZDRkODJhOTgtOTc1OC00NTgzLTk4NjItNDgxZDY4YjlmNDY2XkEyXkFqcGc@._V1_.jpg"
     }
   ],
   "favorites": [
@@ -172,6 +187,182 @@
       },
       "userId": 6,
       "id": 3
+    },
+    {
+      "movie": {
+        "titolo": "Star Wars: The Force Awakens",
+        "genere": "fantasy",
+        "id": 1
+      },
+      "userId": 6,
+      "id": 4
+    },
+    {
+      "movie": {
+        "titolo": "Star Wars: The Force Awakens",
+        "genere": "fantasy",
+        "id": 1
+      },
+      "userId": 6,
+      "id": 5
+    },
+    {
+      "movie": {
+        "titolo": "The Dark Knight",
+        "genere": "avventura",
+        "id": 3
+      },
+      "userId": 6,
+      "id": 6
+    },
+    {
+      "movie": {
+        "id": 10,
+        "titolo": "Fight Club",
+        "genere": "Drama"
+      },
+      "userId": 6,
+      "id": 7
+    },
+    {
+      "movie": {
+        "titolo": "Inception",
+        "genere": "thriller",
+        "id": 2,
+        "img": "https://m.media-amazon.com/images/I/912AErFSBHL._AC_UF1000,1000_QL80_.jpg"
+      },
+      "userId": 7,
+      "id": 8
+    },
+    {
+      "movie": {
+        "id": 5,
+        "titolo": "The Godfather",
+        "genere": "Crime",
+        "img": "https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_.jpg"
+      },
+      "userId": 7,
+      "id": 9
+    },
+    {
+      "movie": {
+        "id": 6,
+        "titolo": "Pulp Fiction",
+        "genere": "Drama",
+        "img": "https://static.posters.cz/image/750/1288.jpg"
+      },
+      "userId": 7,
+      "id": 10
+    },
+    {
+      "movie": {
+        "id": 9,
+        "titolo": "The Matrix",
+        "genere": "Sci-Fi",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfSjSWOCaw5dnDL2GT1zFd9RMCgUGw5Q2Cfg&s"
+      },
+      "userId": 7,
+      "id": 11
+    },
+    {
+      "movie": {
+        "id": 8,
+        "titolo": "Forrest Gump",
+        "genere": "Drama",
+        "img": "https://teatrosociale.it/wp-content/uploads/2021/07/Forrest_Gump_poster.jpg"
+      },
+      "userId": 7,
+      "id": 12
+    },
+    {
+      "movie": {
+        "id": 7,
+        "titolo": "The Shawshank Redemption",
+        "genere": "Drama",
+        "img": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_.jpg"
+      },
+      "userId": 7,
+      "id": 13
+    },
+    {
+      "movie": {
+        "id": 10,
+        "titolo": "Fight Club",
+        "genere": "Drama",
+        "img": "https://m.media-amazon.com/images/I/71V4mbT4n9L._AC_UF894,1000_QL80_.jpg"
+      },
+      "userId": 7,
+      "id": 14
+    },
+    {
+      "movie": {
+        "id": 11,
+        "titolo": "The Lord of the Rings: The Fellowship of the Ring",
+        "genere": "Fantasy",
+        "img": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_.jpg"
+      },
+      "userId": 7,
+      "id": 15
+    },
+    {
+      "movie": {
+        "id": 12,
+        "titolo": "Gladiator",
+        "genere": "Action",
+        "img": "https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+      },
+      "userId": 7,
+      "id": 16
+    },
+    {
+      "movie": {
+        "id": 15,
+        "titolo": "Avatar",
+        "genere": "Sci-Fi",
+        "img": "https://static.posters.cz/image/750/poster/avatar-limited-ed-couple-i7199.jpg"
+      },
+      "userId": 7,
+      "id": 17
+    },
+    {
+      "movie": {
+        "id": 14,
+        "titolo": "Titanic",
+        "genere": "Romance",
+        "img": "https://www.cinefacts.it/foto/h!titanic_poster_locandina_cinefacts__1_.jpg"
+      },
+      "userId": 7,
+      "id": 18
+    },
+    {
+      "movie": {
+        "titolo": "The Dark Knight",
+        "genere": "avventura",
+        "id": 3,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ekE6Hhz9gvIbiFSUPxt-FyAh4zXTXX0bjQ&s"
+      },
+      "userId": 7,
+      "id": 19
+    },
+    {
+      "movie": {
+        "titolo": "Interstellar",
+        "genere": "sci-fi",
+        "id": 4,
+        "img": "https://m.media-amazon.com/images/I/91vIHsL-zjL._AC_UF1000,1000_QL80_.jpg"
+      },
+      "userId": 7,
+      "id": 20
+    },
+    {
+      "movie": {
+        "id": 20,
+        "titolo": "Mad Max: Fury Road",
+        "genere": "Action",
+        "img": "https://m.media-amazon.com/images/M/MV5BZDRkODJhOTgtOTc1OC00NTgzLTk4NjItNDgxZDY4YjlmNDY2XkEyXkFqcGc@._V1_.jpg"
+      },
+      "userId": 7,
+      "id": 21
     }
   ]
 }

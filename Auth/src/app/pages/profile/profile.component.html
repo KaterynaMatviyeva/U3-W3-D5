@@ -1,1 +1,96 @@
-<p>profile works!</p>
+<main class="bg-black">
+  <title>Edit Profile</title>
+  <div class="container w-50">
+    <h1 class="fw-normal text-white">Edit Profile</h1>
+    <hr />
+  </div>
+
+  <div class="container w-50">
+    <div class="row mt-4">
+      <div class="col-12 col-lg-3">
+        <img
+          class="rounded-2"
+          width="120"
+          src="https://i.pinimg.com/564x/1b/a2/e6/1ba2e6d1d4874546c70c91f1024e17fb.jpg"
+          alt="kids_icon"
+        />
+      </div>
+      <div class="col text-white">
+        <div>
+          <h4 class="text-white p-2 fw-normal text-center">
+            {{ userProfile.nome }}
+          </h4>
+        </div>
+        <div>
+          <h4 class="text-white p-2 fw-normal text-center">
+            {{ userProfile.email }}
+          </h4>
+        </div>
+
+        <div>
+          <h5 class="fw-normal">Maturity Settings:</h5>
+
+          <p>
+            Show titles of <strong>all maturity ratings</strong> for this
+            profile
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-secondary border-1 rounded-0 px-4 py-1 mb-3"
+          >
+            Edit
+          </button>
+          <hr />
+        </div>
+        <div>
+          <h5>Autoplay controls</h5>
+          <ul class="px-0">
+            <li class="list-group-item d-flex align-items-center">
+              <input
+                class="form-check-input me-1 fs-3 rounded-0"
+                type="checkbox"
+                value=""
+                id="firstCheckbox"
+              />
+              <label class="form-check-label" for="firstCheckbox"
+                >Autoplay next episode.</label
+              >
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+              <input
+                class="form-check-input me-1 fs-3 rounded-0"
+                type="checkbox"
+                value=""
+                id="secondCheckbox"
+              />
+              <label class="form-check-label" for="secondCheckbox"
+                >Autoplay previews while browsing on all devices.</label
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container d-flex flex-wrap justify-content-between gap-2 mb-5">
+      <button
+        type="button"
+        class="btn btn-outline-light border-2 rounded-0 px-5 bg-white text-black fw-semibold"
+      >
+        SAVE
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary border-2 rounded-0 px-5 fw-semibold"
+      >
+        CANCEL
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary border-2 rounded-0 px-5 fw-semibold"
+      >
+        DELETE PROFILE
+      </button>
+    </div>
+  </div>
+</main>

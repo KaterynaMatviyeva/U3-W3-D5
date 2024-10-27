@@ -15,6 +15,8 @@ export class HomeComponent implements OnInit {
 
   constructor(private moviesSvc: MoviesService, private authSvc: AuthService) {}
 
+  // customize default values of carousels used by this component tree
+
   ngOnInit() {
     this.movies$ = this.moviesSvc.getAllMovies();
   }
@@ -27,7 +29,7 @@ export class HomeComponent implements OnInit {
       .getFavoritesForUser(currentUser.id)
       .subscribe((favorites) => {
         const movieExists = favorites.some(
-          (fav) => fav.movie.id === movie.id && fav.id === currentUser.id
+          (fav) => fav.movie.id === movie.id && fav.userId === currentUser.id
         );
 
         if (movieExists) {

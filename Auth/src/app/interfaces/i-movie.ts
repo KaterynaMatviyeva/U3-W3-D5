@@ -1,5 +1,6 @@
 export interface iMovie {
   id: number;
   titolo: string;
-  genre: string;
+  genere: string;
+  img: string;
 }

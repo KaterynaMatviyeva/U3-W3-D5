@@ -1,9 +1,29 @@
-<main>
-  <div>
-    <ul *ngFor="let favorite of favorites">
-      <li>
-        {{ favorite.movie.titolo }}
-      </li>
-    </ul>
+<main class="bg-black">
+  <div class="row my-2 text-white">
+    <div *ngFor="let favorite of favorites" class="col col-4">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img
+              id="img-card"
+              src="{{ favorite.movie.img }}"
+              class="img-fluid rounded-start"
+              alt="{{ favorite.movie.titolo }}"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title text-white">{{ favorite.movie.titolo }}</h5>
+              <p class="card-text">
+                {{ favorite.movie.genere }}
+              </p>
+              <p class="card-text text-center text-warning">
+                <a class="btn"><i class="bi bi-heart-fill text-warning"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </main>

@@ -1,13 +1,59 @@
-<main>
-  <!-- <div *ngIf="movies"> -->
-  <ul *ngFor="let movie of movies$ | async">
-    <li class="text-black">
-      {{ movie.titolo }}
-
-      <button (click)="addToFavorite(movie)" class="btn btn-warning">
-        Add to favorites
-      </button>
-    </li>
-  </ul>
-  <!-- </div> -->
+<main class="bg-black">
+  <div class="row">
+    <div class="col col-12">
+      <ngb-carousel>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img
+              src="https://images3.alphacoders.com/112/1129065.jpg"
+              alt="Random first slide"
+            />
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img
+              src="https://gaming-cdn.com/images/products/835/orig/mad-max-pc-mac-gioco-steam-cover.jpg?v=1683635846"
+            />
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/6d0ddf18393841.562c8bd34c8f4.jpg"
+            />
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+    <div class="row my-2 text-white">
+      <div *ngFor="let movie of movies$ | async" class="col col-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img
+                id="img-card"
+                src="{{ movie.img }}"
+                class="img-fluid rounded-start"
+                alt="{{ movie.titolo }}"
+              />
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title text-white">{{ movie.titolo }}</h5>
+                <p class="card-text">
+                  {{ movie.genere }}
+                </p>
+                <p class="card-text text-center text-warning">
+                  <a (click)="addToFavorite(movie)" class="btn text-warning"
+                    ><i class="bi bi-heart"></i
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </main>
